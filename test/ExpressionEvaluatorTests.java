@@ -3,12 +3,12 @@ import org.junit.jupiter.api.BeforeAll;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class BasicArithmeticOperationTest {
-    static BasicArithmeticOperation ar;
+public class ExpressionEvaluatorTests {
+    static ExpressionEvaluator ar;
 
     @BeforeAll
     static void init() {
-        ar = new BasicArithmeticOperation();
+        ar = new ExpressionEvaluator();
     }
       
     @Test

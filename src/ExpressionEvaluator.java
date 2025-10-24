@@ -3,7 +3,7 @@ import java.util.Stack;
 /**
  * Using Djikstra's two stack algorithm implement the arithmetic operation.
  */
-public class BasicArithmeticOperation {
+public class ExpressionEvaluator {
     private Stack<String> operation = new Stack<String>();
     private Stack<Integer> operand = new Stack<Integer>();
     
