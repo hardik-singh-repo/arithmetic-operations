@@ -10,7 +10,8 @@ public class BasicArithmeticOperationTest {
     static void init() {
         ar = new BasicArithmeticOperation();
     }
-        
+      
+    @Test
     void shouldPerformTwoNumberAddition() {
         String exp = "( 1 + 2 )";
         int result = ar.evaluate(exp);
