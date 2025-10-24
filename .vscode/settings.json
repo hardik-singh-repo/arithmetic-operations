@@ -1,0 +1,39 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+
+    // Disable IntelliSense suggestions
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+
+    // Disable suggestions triggered by typing characters
+    "editor.suggestOnTriggerCharacters": false,
+
+    // Disable auto-closing brackets, quotes, and tags
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "html.autoClosingTags": false,
+
+    // Disable snippet and code completion popups
+    "editor.snippetSuggestions": "none",
+
+    // Disable IntelliCode and AI hints
+    "editor.inlineSuggest.enabled": false,
+    "editor.parameterHints.enabled": false,
+
+    // Disable hover popups
+    "editor.hover.enabled": false,
+
+    // Disable word-based suggestions
+    "editor.wordBasedSuggestions": "off",
+
+    // Optional: disable auto imports and lightbulb code actions
+    "editor.codeActionsOnSave": {},
+    "editor.lightbulb.enabled": "off"
+}
